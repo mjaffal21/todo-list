@@ -38,7 +38,7 @@ function Form({input, setInput, todos, setTodos, editTodo, setEditTodo}) {
   return (
     <form onSubmit={onFormSubmit}>
         <input 
-            type='text' 
+            type='text'
             placeholder='Enter A TODO Item.....' 
             className='task-input' 
             onChange={onInputChange} 
